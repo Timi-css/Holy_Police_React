@@ -1,0 +1,28 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 15px 50px 15px;
+  width: 100%;
+}
+
+.search {
+  width: 60%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(179, 178, 178);
+  padding-left: 15px;
+}
+
+.search:hover,
+.search:focus {
+  border: 1px solid #a02064;
+}
+
+.table-row {
+  text-align: center;
+  border-bottom: 0.5px solid #a02064;
+  /* background-color: #a02064; */
+  padding: 5px;
+  color: #000;
+}

@@ -1,0 +1,24 @@
+#success-header {
+  font-size: 70px;
+  color: #a02064;
+  margin-bottom: -20px;
+}
+
+@media screen and (max-width: 390px) {
+  #hero-image {
+    height: 150px;
+  }
+
+  #success-header {
+    font-size: 40px;
+    color: #a02064;
+    margin-bottom: -5px;
+    margin-top: 50px;
+  }
+
+  #success-body {
+    font-size: 20px;
+    padding: 0 15px;
+    text-align: center;
+  }
+}

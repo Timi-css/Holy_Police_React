@@ -1,0 +1,22 @@
+#registration-form {
+  height: 30px;
+  margin-bottom: 10px;
+  width: 500px;
+  display: flex;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid rgba(101, 101, 101, 0.368);
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+}
+
+#registration-form::placeholder {
+  color: rgba(149, 149, 149, 0.627);
+}
+
+@media screen and (max-width: 390px) {
+  #registration-form {
+    width: 300px;
+  }
+}
