@@ -17,7 +17,7 @@ export default class RegisterVehicle extends Component {
     e.preventDefault();
     const { FullName, Phone, NumberPlate } = this.state;
 
-    fetch("http://localhost:5000/api/vehicles/registers", {
+    fetch("https://hpserver.adaptable.app/api/vehicles/registers", {
       method: "POST",
       crossDomain: true,
       headers: {

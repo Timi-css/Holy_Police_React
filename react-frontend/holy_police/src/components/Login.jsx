@@ -16,7 +16,7 @@ export default class Login extends Component {
     e.preventDefault();
     const { username, password } = this.state;
 
-    fetch("http://localhost:5000/api/users/login", {
+    fetch("https://hpserver.adaptable.app/api/users/login", {
       method: "POST",
       crossDomain: true,
       headers: {

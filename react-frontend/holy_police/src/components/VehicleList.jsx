@@ -12,7 +12,9 @@ const VehicleList = () => {
   }, []);
 
   const names = async () => {
-    const response = await fetch("http://localhost:5000/api/users/vehiclelist");
+    const response = await fetch(
+      "https://hpserver.adaptable.app/api/users/vehiclelist"
+    );
     setName(await response.json());
   };
 
